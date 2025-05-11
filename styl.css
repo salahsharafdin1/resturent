@@ -677,7 +677,7 @@ footer a {
           background-color: white;
           inset: 0 0 0 0;
           padding: 10px;
-          transform: translateY(16%);
+          transform: translateY(19%);
           transition: transform 700ms ease-in-out;
       }
 
