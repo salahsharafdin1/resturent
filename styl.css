@@ -19,10 +19,9 @@ em {
 
 header {
   height: 5rem;
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
-  z-index: 2222;
   background-color: rgba(0,0,0,0.20);
 }
 
@@ -151,7 +150,7 @@ video {
   position: absolute;
   width: 80%;
   left: 50%;
-  top: 60%;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   color: white;
