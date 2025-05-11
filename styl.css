@@ -22,6 +22,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 11;
   background-color: rgba(0,0,0,0.20);
 }
 
@@ -140,6 +141,17 @@ video {
 }
 
 
+.backgrond-video {
+  position: absolute;
+  background-color: rgba(35,45,57,0.8);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
 .backgrond-video .content h2 em{
   font-weight: 900;
 }
@@ -165,7 +177,6 @@ video {
 }
 
 .content h6 {
-  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -633,7 +644,7 @@ footer a {
   }
 
   video {
-    max-height: 100vh;
+    min-height: 100vh;
   }
 
   .content {
